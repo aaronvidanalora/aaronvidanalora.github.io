@@ -1,0 +1,905 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+  body {
+    font-size: 18px;
+    overflow: unset;
+    font-weight: 400;
+    color: #fff;
+    background: radial-gradient(circle at center top,rgb(10,28,58) 0px,rgb(5,17,34) 900px,rgb(5,17,34));
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  header{
+    background: radial-gradient(circle at center top,rgb(10,28,58) 0px,rgb(5,17,34) 900px,rgb(5,17,34));
+  }
+
+  main{
+    background: radial-gradient(circle at center top,rgb(10,28,58) 0px,rgb(5,17,34) 900px,rgb(5,17,34));
+  }
+
+
+
+  h1{
+    font-family: 'Teko', sans-serif;
+  }
+
+  .ficha-img img {
+    width: 100%;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+
+  .container{
+    width: 1300px; /*ANCHO DE CONTAINER CENTRAL*/
+  
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+
+
+.flex{
+  display: flex;
+}
+
+
+
+
+.fila{
+    display: flex;
+}
+
+/*estructura pagina*/
+.content {
+  
+    padding: 10px;
+  }
+ 
+  .container {
+    width: 1300px;
+    margin: 0 auto 0 auto;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  /*estructura pagina*/
+.logomini{
+    width: 20px;
+
+  
+}
+
+/*menu cinesa*/
+.menu {
+    display: flex;
+    align-items: center;
+    
+  }
+
+.logo{
+    width: 140px;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+
+.menu-top2 {
+    width: 100%;
+    
+    
+  }
+  .menu-top2 li {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    
+   
+  }
+  .menu-top2 li a:hover{
+    color:#2abeeb;
+  }
+
+  .menu-top2 li a{
+    color: white;
+  }
+  .menu-top2 li{
+    display: flex;
+    
+  }
+  .menu ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .lupa{
+    color: white;
+    
+  }
+
+  /*el sentido del agua*/
+
+  .elsentido{
+    color: white;
+    font-size: 80px;
+    margin: -370px 0px 0px -300px;
+    padding-left: 260px;
+    width: 870px;
+    
+  }
+  .avatar{
+    height: 504px;
+    position: relative;
+   
+    
+  }
+
+  .avatar img{
+    margin-left: 100px;
+  }
+
+
+
+  /*botones*/
+  .botoncine p{
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 11px 20px;
+    width: 170px;
+    margin-top: 0px;
+    border: 1px solid #fff;
+    
+  }
+
+ 
+
+  .yaentucine{
+    margin:-120px 0px 0px -30px;
+    position: absolute;
+    
+  }
+  .botoncine p:hover{
+    background: linear-gradient(-45deg,transparent 6%,#0068c8 5%, #0068c8 95%, #0068c8 15%);   
+  }
+
+  .flecha1{
+    border: 1px solid #bcc0d0;
+    width: 42px;
+    height: 42px;
+    background: #0a1c3a;
+    color: #fff;
+   
+   
+  }
+
+  .flecha2{
+    width: 42px;
+    height: 42px;
+    background: #0a1c3a;
+    border: 1px solid #bcc0d0;
+    color: #fff;
+    margin: 40px 190px 0px 30px;
+    
+    
+  }
+
+  .botones a:hover{
+    border: 1px solid #0068c8;
+    width: 42px;
+    height: 42px;
+    background: #0a1c3a;
+  }
+  
+  .botones{
+    position: absolute;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -360px 1050px ; 
+    background: transparent; 
+  }
+
+  .botones i{
+    transform: rotate(45deg);
+    margin: 11px;
+  }
+
+  /*rombos abajo*/
+ .rombos{
+   display: flex;
+ }
+ .rombos ul{
+  display: flex;
+  margin: 30px 520px;
+ }
+
+ .rombo:hover{
+   background-color: white;
+ }
+
+
+ .rombo{
+  transform: rotate(-45deg);
+  margin: 7px;
+  
+  
+  
+ }
+
+  /*rombos abajo*/
+
+  /*toppeliculas*/
+  .lineazul{
+    position: absolute;
+    bottom: 0;
+    width: 130px;
+    height: 5px;
+    border-bottom: solid 1px #0068c8;
+    border-top: solid 1px #0068c8;
+    margin-left: -72px;
+    
+  }
+
+  .titulocont{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+    color: #fff;
+    text-align: center;
+    
+    
+  }
+
+  .topeliculas{
+    margin-bottom: 40px;
+  }
+
+  .fichas{
+    max-width: 1170px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+  }
+
+  .listas{
+    display: block;
+    width: 100%;
+    margin: 40px;
+    
+    
+  }
+
+  .carrusel{
+    height: 100%;
+    display: flex;
+  }
+
+  .ficha{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 60px 30px -30px;;
+   
+    
+  }
+
+  .botonazul{
+    position: absolute;
+    color: #fff;
+    background-color: #0068c8;
+    background-color: #0068c8;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    padding: 15px;
+    margin-left: -25px;
+    margin-top: 0px
+    
+
+  }
+
+  .botonazul:hover{
+    background-color: #2abeeb;
+  }
+
+  .fototop{
+    width: 262px;
+    height: 390px;
+    display: block;
+    
+    
+   
+  }
+
+  .textoficha{
+    font-size: 34px;
+    line-height: 26px;
+    word-break: break-word;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    top: -25px;
+    color: #fff;
+    margin: -3px;
+    background: transparent;
+    font-family: 'Teko', sans-serif;
+    
+  }
+   /*botones*/
+
+   .rombos2{
+    position: absolute;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -60px 45px 90px 460px;
+    background: transparent;
+   }
+
+   .rombos2 i{
+    margin: 0px;
+    transform: rotate(45deg);
+    
+    
+   }
+
+   .rombos2 a:hover{
+    border: 1px solid #0068c8;
+    width: 42px;
+    height: 42px;
+    background: #0a1c3a;
+   
+
+   }
+
+   .rombo2{
+    border: 1px solid #bcc0d0;
+    width: 42px;
+    height: 42px;
+    background: #0a1c3a;
+    color: #fff;
+    padding: 8px;
+    
+
+   
+    
+   }
+
+   .rombo3{
+    border: 1px solid #bcc0d0;
+    width: 42px;
+    height: 42px;
+    background: #0a1c3a;
+    color: #fff;
+    padding: 10px 3px 3px 10px;
+    margin: 29px 0px 0px 140px;
+    
+   }
+
+   /*premium*/
+   .premium{
+     background-image: url(../img/banner-plf-1324x420.jpg);
+     width: 100%;
+     height: 420px;
+     background-size: cover;
+     margin-top: 50px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     
+    
+   }
+
+   .premiumtext{
+     width: 350px;
+     background: transparent;
+     margin-left: -780px;
+     
+     
+     
+     
+   }
+
+  .salas{
+    font-size: 25px;
+    margin-bottom: 13px;
+    background: transparent;
+    
+    
+
+  }
+
+  .imax{
+    font-size: 19px;
+   margin-bottom: 13px;
+   background: transparent;
+  
+  }
+
+  .descubre{
+    font-size: 19px;
+    color: #0068c8;
+    background: transparent;
+   
+  }
+
+  .azuliyo{
+    background:transparent;
+    display: flex;
+  }
+
+  .flechiya{
+    background: transparent;
+    color: #0068c8;
+    margin-top: 13px;
+  }
+
+  .ofertas{
+    margin-top: 50px;
+  }
+  
+  .cartascentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cartas{
+   display: flex;
+   margin-top: 50px;
+   width: 1300px;
+   
+  
+   
+  
+   
+  }
+
+  .carta{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    margin: 30px;
+    background: linear-gradient(-45deg,transparent 3%, #fff 2%, #fff 95%, #fff 15%);
+    
+    
+  }
+
+  .cartafoto{
+    width: 100%;
+
+  }
+
+  .titulocarta{
+    color: black;
+    padding: 13px;
+    background: transparent;
+
+  }
+  .textocarta{
+    padding: 13px;
+    color: #4e5a6c;
+    background: transparent;
+  }
+
+  .azul{
+    background: transparent;
+    margin-top: 50px;
+    display: flex;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+
+  .mas{
+    background: transparent;
+    color: #0068c8;
+
+  }
+
+  .flechazul{
+    background: transparent;
+    color: #0068c8;
+    padding-left: 3px;
+  }
+
+
+
+
+
+  .abajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .botonabajo p{
+    
+    color: #fff;
+    padding: 15px;
+    background: linear-gradient(-45deg,transparent 3%,#0068c8 2%, #0068c8 95%, #0068c8 10%);   
+    width: 330px;
+    height: 55px; 
+    padding-left: 22px; 
+      
+
+    
+    
+  }
+
+  .topfoot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 1460px;
+    
+  }
+  
+  
+  
+  .topfoot a{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #0068c8;
+    position: absolute;
+    
+  }
+  
+  .topfoot i{
+    background: transparent;
+    color: #fff;
+    font-size: 30px; 
+  }
+  
+
+   /*premium*/
+
+  /*menu principal*/
+  
+
+  /*footer*/
+
+
+.container-fluid{
+  background-color: #0a1c3a;
+}
+
+
+.col {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+}
+.col ul li {
+  list-style: none;
+  
+}
+.col ul li a {
+  color: #fff;
+  font-size: 17px;
+}
+footer {
+ margin-top: 30px;
+ 
+}
+
+.redes{
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px;
+  
+
+}
+
+.iconos i{
+  background-color: #fff;
+  color: #0a1c3a;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 5px;
+  
+}
+
+.iconos{
+  margin-left: 1000px;
+  
+}
+
+.iconos a{
+  padding: 5px;
+}
+
+.scroll{
+  
+  background-attachment: scroll;
+  background-image: url(../img/scroll.svg);
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  display: flex;
+  margin: -320px -40px 0px -120px;
+  
+  
+}
+
+.scroll img{
+  background-attachment: scroll;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+/*AQUI EMPIEZA LA FICHA*/
+
+
+.subrayado{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.subrayado p:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*-------------------*/
+
+.bloque{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.plays{
+width: 100%;
+height: 500px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(../img/avatar_2_james_cameron_4.jpg)
+;
+
+
+
+
+
+
+}
+
+.fotoficha{
+ 
+ width: inherit;
+ height: inherit;
+ object-fit: inherit;
+ object-position: top;
+ 
+ 
+}
+
+.divboton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 600px;
+  
+ 
+  
+}
+
+.botonficha{
+  background-color: #0068c8;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 170px;
+  background: linear-gradient(-45deg,transparent 9%,#0068c8 5%, #0068c8 95%, #0068c8 15%);   
+}
+
+/*------------*/
+
+.descripcion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descripciontitulo{
+  display: flex;
+  margin-top: -90px;
+  width: 100%;
+
+}
+
+.espaciotexto{
+  margin-top: 35px;
+  margin-right: 650px;
+}
+
+.espaciotexto h5{
+  padding-top: 23px;
+}
+
+.espaciotexto p{
+  padding-top: 9px;
+  font-size: 15px;
+}
+
+.descripciontitulo img{
+  width: 17px;
+  height: 23px;
+  margin-left: 5px;
+ 
+  
+  
+}
+
+
+
+.fotoposter img{
+  height: 320px;
+  margin-left: 120px;
+  margin-top: -140px;
+  background-size: cover;
+  padding-right: 60px;
+}
+
+.desc{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.textodesc{
+  padding-top: 70px;
+}
+
+.derecha{
+margin-left: -500px;
+margin-right: 200px;
+}
+
+.textoderecha h5{
+  padding-top: 23px;
+
+}
+
+.textoderecha{
+  width: 100%;
+}
+.textoderecha p{
+  padding-top: 9px;
+  font-size: 15px;
+}
+
+.bordes{
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-right: 67px;
+  text-align: center;
+  padding: 4px;
+ 
+}
+
+.separarborde ul li{
+  padding: 4px;  
+}
+
+.ava{
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+}
+
+.posicionhorario{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.horariocine{
+  background-color: #0a1c3a;
+  display: flex;
+  padding: 8px;
+  width: 900px;
+  font-size: 16px;
+
+}
+
+.horariocine p{
+  padding: 10px;
+}
+
+.horariocine i{
+  padding: 13px;
+}
+.lao{
+  margin-right: 310px;
+  color: #0068c8;
+}
+
+.mapa{
+  color: #4e5a6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 120px;
+}
+
+.seleccion{
+ text-align: center;
+}
+
+.ttmapa{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.textomapa{
+  font-size: 19px;
+}
+
+.botonfinal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 17px;
+}
+
+.continuar{
+
+    color: #fff;
+    padding: 15px;
+    background: linear-gradient(-45deg,transparent 9%,#0068c8 4%, #0068c8 95%, #0068c8 10%);   
+
+}
+
+.otrolao:hover{
+  color:#0068c8;
+}
