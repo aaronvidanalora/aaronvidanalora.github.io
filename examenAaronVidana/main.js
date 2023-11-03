@@ -39,7 +39,7 @@ let coches = [
 const cochesCard = document.querySelector("#insertaCoches");
 //vacio el pintarCoches para luego meter el card
 let pintarCoches = "";
-// recorrer el objeto
+// recorrer el json
 for (let i = 0; i < coches.length; i++) {
 
     //agrego el div con la informacion del coche
@@ -75,7 +75,7 @@ function comparar(){
     let coche1;
     let coche2;
 
-     //recorrer el objeto
+     //recorrer el json
     for (let i = 0; i < coches.length; i++) {
         // miro si el id en esta posicion coincide con el seleccionado
         if (coches[i].id == valorCoche1) {
@@ -132,19 +132,19 @@ function listar() {
       const now = new Date();
       const horaActual = now.toLocaleTimeString();
 
-   //recorro el objeto
+   //recorro el json
     for (let i = 0; i < coches.length; i++) {
-        const coche = coches[i];
-        //extraigo los caballos del objeto coches solo quedandome con los números
-        const potenciaCoche = coche.potencia.replace(/\D/g, '');
+        //extraigo los caballos del json coches solo quedandome con los números
+        const potenciaCoche = coches[i].potencia.replace(/\D/g, '');
 
        //si la potencia que da es mayor a la introducida entra en el if
         if (potenciaCoche > potencia) {
            //pinto el div el nombre y su potencia
-            listaCaballos.innerHTML += `<p>${coche.nombre} - <strong>${potenciaCoche} caballos</strong></p>`;
+            listaCaballos.innerHTML += `<p>${coches[i].nombre} - <strong>${potenciaCoche} caballos</strong></p>`;
         }
     }
     //pinto la hora actual
     const horaCaballos = document.querySelector('#horaCaballos')
     horaCaballos.innerHTML = `<p class="mt-2">Hora de búsqueda : <strong>${horaActual}</strong></p> `
 }
+
