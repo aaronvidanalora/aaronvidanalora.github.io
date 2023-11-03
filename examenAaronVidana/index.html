@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coches Más Potentes de 2022</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        img {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Coches Más Potentes de 2022</h1>
+        <div class="mb-4">
+            <label for="potenciaInput" class="form-label">Buscar coches con más de:</label>
+            <input type="number" id="potenciaInput" class="form-control" placeholder="Caballos de fuerza">
+        </div>
+
+        <button id="botonBuscar" class="btn btn-primary mb-3">Buscar</button>
+        <div class="row mt-4 mb-4" id="listaCaballos">
+            <!-- aqui va la lista de caballos -->
+        </div>
+        <div id="horaCaballos">
+            <!-- hora de busqueda de la lista -->
+        </div>
+        <div class="row mt-4" id="insertaCoches">
+            
+        <!-- aqui van las card de los coches con el script     -->
+            
+            
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 mt-5">
+                <div class="mb-4">
+                    <label for="cocheSelector1" class="form-label">Selecciona el primer coche:</label>
+                    <select id="cocheSelector1" class="form-select">
+                        <option value="bugatti">Bugatti Chiron Super Sport 300+</option>
+                        <option value="koenigsegg">Koenigsegg Jesko</option>
+                        <option value="hennessey">Hennessey Venom F5</option>
+                        <option value="rimac">Rimac C_Two</option>
+                        <option value="lamborghini">Lamborghini Sian</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mb-4 mt-5">
+                    <label for="cocheSelector2" class="form-label">Selecciona el segundo coche:</label>
+                    <select id="cocheSelector2" class="form-select">
+                        <option value="bugatti">Bugatti Chiron Super Sport 300+</option>
+                        <option value="koenigsegg">Koenigsegg Jesko</option>
+                        <option value="hennessey">Hennessey Venom F5</option>
+                        <option value="rimac">Rimac C_Two</option>
+                        <option value="lamborghini">Lamborghini Sian</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-5">
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <div id="tablaComparativa">
+                        <!-- aqui va la tabla comparativa -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <button id="botonComparar" class="btn btn-primary">Comparar</button>
+            </div>
+        </div>
+        
+    <script src="main.js"></script>
+</body>
+</html>
+
+
